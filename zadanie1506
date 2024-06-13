@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Мой любимый фильм</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6em;
+        }
+
+        h1 {
+            color: #007BFF;
+        }
+
+        h2 {
+            color: #444;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        ul, ol {
+            margin-left: 30px;
+            color: #666;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+
+        table {
+            margin-top: 40px;
+            width: 80%;
+            border-collapse: collapse;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+        }
+
+       .menu {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 0;
+        }
+
+       .menu a {
+            color: white;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+
+       .menu a:hover {
+            color: #ccc;
+        }
+
+       .transform-scale:hover {
+            transform: scale(1.05);
+        }
+
+       .transform-rotate:hover {
+            transform: rotate(360deg);
+        }
+    </style>
+</head>
+<body>
+
+<div class="menu">
+    <a href="#">Главная</a>
+    <a href="#">О фильме</a>
+    <a href="#">Критика</a>
+</div>
+
+<h1>Мой любимый фильм</h1>
+
+<ul>
+    <li>Актерский состав:</li>
+    <li>Жанр:</li>
+    <li>Год выпуска:</li>
+</ul>
+
+<ol>
+    <li>Сюжет фильма:</li>
+    <li>Отзывы критиков:</li>
+    <li>Награды и номинации:</li>
+</ol>
+
+<img class="transform-scale" src="film.jpeg" alt="Изображение моего любимого фильма">
+
+<table border="1">
+    <tr>
+        <th>Название</th>
+        <th>Описание</th>
+    </tr>
+    <tr>
+        <td>Фильм 1</td>
+        <td>Описание фильма 1</td>
+    </tr>
+    <tr>
+        <td>Фильм 2</td>
+        <td>Описание фильма 2</td>
+    </tr>
+</table>
+
+</body>
+</html>
